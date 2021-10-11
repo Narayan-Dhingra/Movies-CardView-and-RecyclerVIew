@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView.setHasFixedSize(true);
 
+        //Hello
+
         RecyclerView.LayoutManager mLayoutmanager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(mLayoutmanager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
